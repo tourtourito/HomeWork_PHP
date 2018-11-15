@@ -10,7 +10,7 @@
 include('header.html');
 ?>
 <br>
-<form action="friendbook.php" method="post">
+<form action="index.php" method="post">
     <input type="text" name="this_name">
     <input type="submit" name="envoi" value="Send">
     <input type="text" name="nameFilter" value="<?php if(empty($_POST['nameFilter'])) $nameFilter = NULL;?>">
