@@ -18,7 +18,6 @@ include('header.html');
 </form>
 <?php
 
-include('footer.html');
 echo "<h1>My best friend: </h1>";
 
 $filename = "friends.txt";
@@ -45,6 +44,7 @@ while (!feof($file)) {
         echo fgets($file)."<br/>";
     }
 }
+ include('footer.html');  
 ?>
 
 </body>
